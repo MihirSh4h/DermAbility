@@ -747,9 +747,11 @@ p:last-child { margin-bottom: 0; }
   font-weight: 700;
   flex-shrink: 0;
 }
+.about-avatar--coral { background: linear-gradient(135deg, var(--coral-600), var(--coral-400)); }
 .about-name { font-size: 1.05rem; font-weight: 700; color: var(--blue-900); margin-bottom: 0.2rem; font-family: var(--font-sans); }
 .about-role { font-size: 0.82rem; color: var(--text-light); margin-bottom: 1rem; display: block; }
 .about-text { font-size: 0.9rem; color: var(--text-medium); line-height: 1.75; margin: 0; }
+.about-banners { display: flex; flex-direction: column; gap: 2rem; }
 
 /* ===========================
    BACKGROUND VARIANTS
